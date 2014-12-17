@@ -18,7 +18,13 @@ namespace XFlixelTemplate
             FlxG.backColor = Color.Purple;
             base.create();
 
+            FlxSprite testPattern = new FlxSprite(0, 0);
+            testPattern.loadGraphic("flixel/diagnostic/checkerboard");
+            add(testPattern);
 
+            Logo logo = new Logo(0, 0);
+            add(logo);
+            
 
         }
 

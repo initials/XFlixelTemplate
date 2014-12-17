@@ -39,16 +39,7 @@ namespace Loader_Four
 #if DEBUG
             FlxG.debug = true;
 #endif
-#if DEMO
-#endif
-#if FULL
-#endif
-#if PIRATE
-#endif
-#if PRESS
-#endif
-#if MAKEGIF
-#endif
+
 
 
 
