@@ -22,8 +22,8 @@ namespace XFlixelTemplate
             centerAtX();
             centerAtY();
 
-            t = new Tweener(0, 360, 3.0f, XNATweener.Circular.EaseInOut);
-
+            t = new Tweener(0, 360, 3.0f, XNATweener.Linear.EaseInOut);
+            t.PingPong = true;
         }
 
         override public void update()

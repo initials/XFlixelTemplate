@@ -1,7 +1,7 @@
-﻿x=960
-y=640
+﻿x=320
+y=240
 fullscreen=0
-zoom=4
+zoom=1
 language=English
 
 

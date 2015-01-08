@@ -24,17 +24,20 @@ namespace XFlixelTemplate
 
             Logo logo = new Logo(0, 0);
             add(logo);
-            
+
 
         }
 
         override public void update()
         {
 
-
-
-
             base.update();
+        }
+
+        public override void render(SpriteBatch spriteBatch)
+        {
+            
+            base.render(spriteBatch);
         }
 
 
