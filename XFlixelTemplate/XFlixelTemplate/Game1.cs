@@ -113,7 +113,7 @@ namespace Loader_Four
             }
             _graphics.ApplyChanges();
 
-            Console.WriteLine("\n\nRunning Game at Settings: {0}x{1} Fullscreen?:{2} \n Preferrred {3} {4}\nZoom:{5}\n\n",
+            Console.WriteLine("\n\nRunning Game at Settings: {0}x{1} Fullscreen?:{2} \n Preferrred screen resolution: X: {3} Y: {4}\nZoom:{5}\n\n",
                 FlxG.resolutionWidth,
                 FlxG.resolutionHeight, FlxG.fullscreen,
                 GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width,
